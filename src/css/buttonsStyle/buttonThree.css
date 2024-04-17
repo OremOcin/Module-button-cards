@@ -1,0 +1,187 @@
+.btnThreeFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 66.8%;
+  height: 33vh;
+  background: black;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.btnOneContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 10vh;
+  background: transparent;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+
+.btnTwoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 10vh;
+  background: transparent;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+
+.bThreeSprite1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: rgb(66, 255, 113);
+  border-radius: 50px 0px 0px 50px;
+  font-size: 1.7rem;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(66, 255, 113);
+  transition: 200ms ease;
+  box-shadow:  0 0 30px rgb(66, 255, 113);
+  user-select: none;
+}
+
+.bThreeSprite1-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: transparent;
+  border-radius: 50px 0px 0px 50px;
+  font-size: 1.7rem;
+  color: rgb(66, 255, 113);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(66, 255, 113);
+  transition: 200ms ease;
+  box-shadow:  0 0 30px rgb(66, 255, 113);
+  user-select: none;
+}
+
+.bThreeSprite2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: transparent;
+  border-radius: 0 50px 50px 0px;
+  font-size: 1.7rem;
+  color: rgb(66, 255, 113);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(66, 255, 113);
+  transition: 200ms ease;
+  box-shadow:  0 0 30px rgb(66, 255, 113);
+  user-select: none;
+}
+
+.bThreeSprite2-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: rgb(66, 255, 113);
+  border-radius: 0 50px 50px 0px;
+  font-size: 1.7rem;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(66, 255, 113);
+  transition: 200ms ease;
+  box-shadow:  0 0 30px rgb(66, 255, 113);
+  user-select: none;
+}
+
+.bThreeSprite3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: transparent;
+  border-radius: 50px 0px 0px 50px;
+  font-size: 1.7rem;
+  color: rgb(255, 66, 66);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid ;
+  transition: 200ms ease;
+  box-shadow:0 0 30px rgb(255, 66, 66);
+  user-select: none;
+}
+
+.bThreeSprite3-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: rgb(255, 66, 66);
+  border-radius: 50px 0px 0px 50px;
+  font-size: 1.7rem;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(255, 66, 66);
+  transition: 200ms ease;
+  box-shadow:0 0 30px rgb(255, 66, 66);
+  user-select: none;
+}
+
+.bThreeSprite4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: rgb(255, 66, 66);
+  border-radius: 0 50px 50px 0px;
+  font-size: 1.7rem;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(255, 66, 66);
+  transition: 200ms ease;
+  box-shadow:0 0 30px rgb(255, 66, 66);
+  user-select: none;
+}
+
+.bThreeSprite4-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 8vh;
+  background: transparent;
+  border-radius: 0 50px 50px 0px;
+  font-size: 1.7rem;
+  color: rgb(255, 66, 66);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  border: 5px solid rgb(255, 66, 66);
+  transition: 200ms ease;
+  box-shadow:0 0 30px rgb(255, 66, 66);
+  user-select: none;
+}

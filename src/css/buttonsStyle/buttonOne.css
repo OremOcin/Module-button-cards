@@ -1,0 +1,28 @@
+.bOneFlexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 33vh;
+  background: black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.bOneSprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 15vh;
+  background: linear-gradient(45deg, rgb(213, 1, 255), rgb(111, 1, 255) );
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgb(255, 128, 238);
+  transition: 300ms ease;
+}
+
+.bOneSprite:hover {
+  box-shadow: 0px 20px 30px rgba(238, 53, 255, 0.815);
+  transform: translateY(-15px);
+  transition: 300ms ease;
+}

@@ -1,0 +1,76 @@
+.bTwoFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 66.79%;
+  height: 33vh;
+  background: black;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.bTwoSprite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22%;
+  height: 9vh;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+  linear-gradient(to right, rgb(58, 104, 255), rgb(191, 63, 255)) border-box;
+border-radius: 50px;
+border: 8px solid transparent;
+box-shadow: 0px 10px 30px rgb(62, 62, 255);
+transition: 500ms ease;
+}
+
+.bTwoSprite:hover {
+  transition: 300ms ease;
+  margin-bottom: 80px;
+  box-shadow: 0px 40px 30px rgb(133, 133, 255);
+}
+
+
+
+.bTwoSprite2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22%;
+  height: 9vh;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+  linear-gradient(to right, rgb(242, 255, 55), rgb(255, 63, 63)) border-box;
+border-radius: 50px;
+border: 8px solid transparent;
+box-shadow: 0px 10px 30px rgb(213, 255, 62);
+transition: 500ms ease;
+}
+
+.bTwoSprite2:hover {
+  transition: 300ms ease;
+  margin-bottom: 80px;
+  box-shadow: 0px 40px 30px rgb(227, 255, 124);
+}
+
+.bTwoSprite3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22%;
+  height: 9vh;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+  linear-gradient(to right, rgb(68, 255, 78), rgb(63, 242, 255)) border-box;
+border-radius: 50px;
+border: 8px solid transparent;
+box-shadow: 0px 10px 30px rgb(62, 255, 229);
+transition: 500ms ease;
+}
+
+.bTwoSprite3:hover {
+  transition: 300ms ease;
+  margin-bottom: 80px;
+  box-shadow: 0px 40px 30px rgb(111, 255, 236);
+}
